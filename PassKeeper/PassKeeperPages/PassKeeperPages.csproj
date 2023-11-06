@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="Database\usersDB.json" />
+		<None Remove="Images\ProfilePhoto.png" />
+		<None Remove="Images\PassKeeperLogo.png" />
+		<None Remove="Images\**" />
+		<Content Include="Images\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+
+		<Content Include="Database\usersDB.json">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+
+		<Content Update="Images\**">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+			<BuildAction>Content</BuildAction>
+		</Content>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="MaterialDesignThemes" Version="4.9.0" />
+	</ItemGroup>
+
+
+</Project>

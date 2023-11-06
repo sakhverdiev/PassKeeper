@@ -1,0 +1,59 @@
+[
+  {
+    "UserName": "user",
+    "Password": "password",
+    "LastName": "userpass",
+    "Mail": "user@mail.com",
+    "Image": null,
+    "Accounts": [
+      {
+        "SocialNetworkName": "Instagram",
+        "LogIn": "user_ig",
+        "Password": "ig_pass",
+        "Category": "Social Media"
+      }
+    ]
+  },
+  {
+    "UserName": "sanan",
+    "Password": "sananpass",
+    "LastName": "akhverdiev",
+    "Mail": "sakhverdiev@mail.com",
+    "Image": null,
+    "Accounts": [
+      {
+        "SocialNetworkName": "LinkedIn",
+        "LogIn": "sakhverdiev_linked",
+        "Password": "linkedin_pass",
+        "Category": "Network"
+      },
+      {
+        "SocialNetworkName": "GitHub",
+        "LogIn": "sakhverdiev_github",
+        "Password": "sanangithub_pass",
+        "Category": "IT"
+      }
+    ]
+  },
+  {
+    "UserName": "user2",
+    "Password": "password1",
+    "LastName": "userpass1",
+    "Mail": "user1@mail.com",
+    "Image": null,
+    "Accounts": [
+      {
+        "SocialNetworkName": "Twitter",
+        "LogIn": "user3_twitter",
+        "Password": "twitter_pass",
+        "Category": "Social Media"
+      },
+      {
+        "SocialNetworkName": "GitHub",
+        "LogIn": "user3_github",
+        "Password": "github_pass",
+        "Category": "IT"
+      }
+    ]
+  }
+]
